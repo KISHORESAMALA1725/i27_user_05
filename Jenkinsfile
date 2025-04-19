@@ -1,4 +1,4 @@
-@Library("com.i27academy.com@main") _
+@Library("com.i27academy.slb@main") _
 dockerPipeline (
     appName: 'user',
     devHostPort: '8000',
