@@ -25,7 +25,11 @@ server:
 eureka:
   client:
     serviceUrl:
+<<<<<<< HEAD
       defaultZone: http://34.21.68.255:8761/eureka/
+=======
+      defaultZone: http://localhost:8761/eureka/
+>>>>>>> 8b473548741dc16dbfa954a1243f04c3f8c4b5cf
 ---
 spring:
   config:
@@ -33,7 +37,11 @@ spring:
       on-profile: dev
   datasource:
     password: Gcp@db2024
+<<<<<<< HEAD
     url: jdbc:mysql://34.9.223.42:3306/learnerCrownClothing?useSSL=FALSE
+=======
+    url: jdbc:mysql://34.69.79.12:3306/learnerCrownClothing?useSSL=FALSE
+>>>>>>> 8b473548741dc16dbfa954a1243f04c3f8c4b5cf
     username: db_user
   jpa:
     hibernate:
@@ -46,6 +54,10 @@ server:
 eureka:
   client:
     serviceUrl:
+<<<<<<< HEAD
       defaultZone: http://34.21.68.255:8761/eureka/
+=======
+      defaultZone: http://eureka-dev.i27academy.in/eureka/
+>>>>>>> 8b473548741dc16dbfa954a1243f04c3f8c4b5cf
   instance:
     preferIpAddress: true
