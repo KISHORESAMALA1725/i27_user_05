@@ -104,7 +104,7 @@ pipeline {
             steps {
                 script {
                     imageValidation().call()
-                    dockerDeploy('dev', '5000', '8761').call()
+                    dockerDeploy('dev', '8000', '8232').call()
                 }
             }
         }
@@ -118,7 +118,7 @@ pipeline {
             steps {
                 script {
                     imageValidation().call()
-                    dockerDeploy('test', '5001', '8761').call()
+                    dockerDeploy('test', '8001', '8232').call()
                 }
             }
         }
@@ -132,7 +132,7 @@ pipeline {
             steps {
                 script {
                     imageValidation().call()
-                    dockerDeploy('stage', '5002', '8761').call()
+                    dockerDeploy('stage', '8002', '8232').call()
                 }
             }
         }
@@ -146,7 +146,7 @@ pipeline {
             steps {
                 script {
                     imageValidation().call()
-                    dockerDeploy('prod', '5003', '8761').call()
+                    dockerDeploy('prod', '8003', '8232').call()
                 }
             }
         }
